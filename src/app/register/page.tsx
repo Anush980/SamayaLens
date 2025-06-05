@@ -1,6 +1,6 @@
 'use client'; 
 
-import {RegisterForm} from '@components/RegisterForm'
+import {RegisterForm} from '@/components/register-form'
 import React from 'react';
 
 export default function register (){
