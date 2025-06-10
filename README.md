@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SamayaLens 📸
 
-## Getting Started
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-First, run the development server:
+A secure platform to preserve your precious memories and share them with family.
 
+## Table of Contents
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Tech Stack](#tech-stack)
+- [Project Status](#project-status)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features ✨
+
+✅ **Completed:**
+- Modern login interface with form validation
+- Responsive design for all devices
+- Secure authentication frontend
+
+🔜 **Coming Soon:**
+- Full authentication system
+- Photo upload and organization
+- Family sharing features
+- Privacy controls
+
+## Installation 🛠️
+
+### 1. Clone and enter repository
 ```bash
+git clone https://github.com/Anush980/SamayaLens.git
+cd SamayaLens
+```
+2. Install dependencies
+```bash
+
+npm install
+# or
+yarn install
+```
+3. Environment setup
+```bash
+
+echo "REACT_APP_API_URL=your_api_url_here" > .env
+echo "REACT_APP_ENV=development" >> .env
+```
+4. Available commands
+```bash
+
+# Development server
 npm run dev
 # or
 yarn dev
+
+# Production build
+npm run build
 # or
-pnpm dev
+yarn build
+
+# Run tests
+npm test
 # or
-bun dev
+yarn test
+
+# Lint code
+npm run lint
+# or
+yarn lint
 ```
+Tech Stack 🛠️
+Frontend	Backend	Tools
+React	Next.js	Git
+TypeScript	Node.js	npm/yarn
+Tailwind CSS		ESLint
+Project Status 🚧
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Current Version: 0.1.0 (Alpha)
+Active Development: Yes
+Roadmap 🗺️
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Login UI
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Authentication API
 
-## Learn More
+    Photo Gallery
 
-To learn more about Next.js, take a look at the following resources:
+    Sharing System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributing 🤝
+```bash
+# Standard contribution workflow:
+1. Fork the repository
+2. Create feature branch (git checkout -b feat/amazing-feature)
+3. Commit changes (git commit -m 'Add amazing feature')
+4. Push branch (git push origin feat/amazing-feature)
+5. Open Pull Request
+```
