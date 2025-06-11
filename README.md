@@ -8,16 +8,6 @@
 
 A secure platform to preserve your precious memories and share them with family.
 
-## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Tech Stack](#tech-stack)
-- [Project Status](#project-status)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features ✨
 
 ✅ **Completed:**
@@ -31,49 +21,6 @@ A secure platform to preserve your precious memories and share them with family.
 - Family sharing features
 - Privacy controls
 
-## Installation 🛠️
-
-### 1. Clone and enter repository
-```bash
-git clone https://github.com/Anush980/SamayaLens.git
-cd SamayaLens
-```
-2. Install dependencies
-```bash
-
-npm install
-# or
-yarn install
-```
-3. Environment setup
-```bash
-
-echo "REACT_APP_API_URL=your_api_url_here" > .env
-echo "REACT_APP_ENV=development" >> .env
-```
-4. Available commands
-```bash
-
-# Development server
-npm run dev
-# or
-yarn dev
-
-# Production build
-npm run build
-# or
-yarn build
-
-# Run tests
-npm test
-# or
-yarn test
-
-# Lint code
-npm run lint
-# or
-yarn lint
-```
 Tech Stack 🛠️
 Frontend	Backend	Tools
 React	Next.js	Git
